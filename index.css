@@ -1,0 +1,240 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+header {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    color: black;
+    margin: 0 auto;
+    border-top: 4px solid black;
+}
+
+.header-text {
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'consolas';
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: ;
+}
+
+#header-p {
+    font-size: 1.5rem;
+    padding: 30px;
+    font-style: italic;
+    margin-right: 20px;
+    font-family: cursive;
+}
+
+#abilities {
+    padding: 40px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/code_wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+#abilities h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.abilities-top p{
+    font-size: larger;
+    color: lightgray;
+    font-style: italic;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.ability-card {
+    padding: 20px;
+    border-radius: 8px;
+    transition-duration: 0.9s;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#csharp {
+    color: #fff;
+    transition-duration: 0.9s;
+}
+
+.ability-card:hover {
+    box-shadow: 2px 2px 30px 2px white;
+    background-color: black;
+}
+
+.ability-card:hover #csharp {
+    font-size: 33px;
+}
+
+#projects {
+    padding: 40px;
+    height: 100%;
+    background-color:  #fff;
+    margin: 0;
+    color: white;
+}
+
+#projects h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.project-card {
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 30px 2px red;
+    border: 2px solid red;
+    border-radius: 8px;
+    transition-duration: 0.9s;
+}
+
+.project-card * {
+    margin: 20px;
+}
+
+.project-title {
+    font-size: larger;
+    color: gray;
+    font-style: italic;
+    margin-top: 3%;
+}
+
+#dbs {
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 30px 2px red;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+#dbs-title {
+    background-color: red;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 0px 10px 2px red;
+}
+
+#rachel {
+    box-shadow: 0 0 30px 2px rgb(53, 53, 211);
+    border: 2px solid rgb(53, 53, 211);
+}
+
+#rachel-title {
+    background-color: rgb(53, 53, 211);;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 0px 10px 2px rgb(53, 53, 211);
+}
+
+.project-card:hover {
+    box-shadow: 0 0 40px 2px black;
+}
+
+#radi {
+    box-shadow: 0 0 30px 2px green;
+    border: 2px solid green;
+}
+
+#radi-title {
+    background-color: green;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 0px 10px 2px green;
+}
+
+.project-card img {
+    border-radius: 300px;
+}
+
+#dbs img {
+    width: 75%;
+    height: 50%;
+}
+
+#radi img {
+    width: 75%;
+    height: 50%;
+}
+
+#rachel img {
+    width: 75%;
+    height: 50%;
+}
+
+#project-subtitle {
+    color: gray;
+    font-size: medium;
+    font-style: italic;
+}
+
+#footer {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    font-family: corbel;
+    font-size: large;
+}
+
+.col-sm-3 {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.col-sm-3 * {
+    padding: 10px;
+}
+
+#footer-bottom, .col-lg-12, strong {
+    margin-top: 2%;
+}
+
+.social-media {
+    color: white;
+    text-decoration: none;
+    font-style: initial;
+    transition-duration: 0.9s;
+}
+
+.social-media:hover {
+    text-decoration: none;
+    margin-left: 5px;
+    color: darkgoldenrod;
+}
+
+.col-sm-3 h2 {
+    text-decoration: underline;
+}
+
+.footer-row strong {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contact {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
